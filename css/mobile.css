@@ -1,0 +1,97 @@
+@media(max-width: 500px){
+    .banner{
+        padding: 50px 50px 200px 50px;
+        text-align: center;
+        color: white;
+        background-image: url(../images/banner.jpg);
+        background-size: 150%;
+    }
+
+    #nav-bar .container{
+        padding: 50px;
+        display: grid;
+        justify-content: start;
+    }
+
+    #nav-bar i{
+        color: #199cdb;
+        float: left;
+    }
+
+    #nav-bar {
+        text-align: start;
+        border-bottom: none;
+    }
+
+    #nav-bar a{
+            text-decoration: none;
+            color: black;
+            padding: 5px 5px;
+            border-left: none;
+    }
+
+    #nav-bar a:nth-child(2){
+        border-right: none;
+    }
+    
+    #nav-bar a:nth-child(5){
+        border-right: none;
+    }
+
+    .name{
+        display: block;
+    }
+
+    #about .container{
+        display: grid;
+    }
+
+    #target, #personal-info{
+        justify-content: start;
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+    #job-info .container{
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+    .column{
+        width: calc(100% - 40px);
+    }
+
+    .row-certificate,
+    .row-project{
+        display: grid;
+    }
+
+    .certificate-item{
+        width: 100%;
+    }
+
+    .certificate-content {
+        width: calc(100% - 40px);
+    }
+
+    .project-item {
+        margin: 0px 20px;
+        width: calc(100% - 40px);
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .section-title{
+        padding-bottom: 10px;
+    }
+
+    .project-item{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #footer ul li {
+        color: #f7f7f7;
+        margin: 0;
+    }
+}
